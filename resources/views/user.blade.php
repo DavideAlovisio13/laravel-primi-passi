@@ -83,7 +83,7 @@
 
                         &:hover {
                             background: linear-gradient(to right, #fff 0%, #ADD8E6 100%);
-                            background-size: 100px 100%;
+                            background-size: 200% 100%;
                             background-position: 0% 100%;
                             transition: background 0.3s ease-in-out;
                             cursor: pointer;
