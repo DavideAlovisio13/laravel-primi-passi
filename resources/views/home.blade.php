@@ -18,7 +18,30 @@
 <body>
 
     <h1>Hello World</h1>
+    <div class="form_user">
+        <form action="/user" method="GET">
+            <button type="submit">Press Here!</button>
+        </form>
+    </div>
 
 </body>
+
+<style lang="scss" scoped>
+    body {
+        background-color: lightblue;
+
+        h1 {
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        .form_user {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
+        }
+    }
+</style>
 
 </html>
