@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/user', function () {
+    $user = [
+        'name'=> 'Davide', 'surname' => 'Alovisio',
+        'email'=> 'D7qQV@example.com',
+        'img'=> '/images/DSC_0070-removebg-preview.png',
+        'password'=> '123456',
+        ];
+    return view('user', $user);
+});
